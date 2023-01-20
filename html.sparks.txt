@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="logo">
+    <ul>
+    <li><img src="https://www.clipartmax.com/png/middle/289-2898243_all-corporate-accommodation-needs-in-one-place-old-age-home-logo.png"></li>
+    <li><b>HOME</b></li>
+    <li><b>ABOUT US</b></li>
+    </ul>
+    </div>
+    <div class="container">
+        <br><br><br><br><br>
+      <h1>GIVING IS THE GREATEST ACT OF GRACE</h1>
+      <br><br><br><br><br>
+    </div>
+    <div><h2>Poor old aged people undergoing great difficulties lacking & logging in love and affection and always are into mental stress, strain, for this reason, we started "OldAge Home for Poor Elders" with humanity and service to cater to the needs of such unfortunate elders. In Oldage Home, 20 old aged people are living and getting food, shelter, love, proper care, and other basic needs. We sponsor elders boarding & lodging facilities with breakfast, lunch, dinner, Medical care, T.V for recreation.</h2></div>
+    <div class="donate">
+        <button type="button" onclick="onButtonClick()"><b>DONATE NOW</b></button>
+    </div>
+
+</body>
+</html>

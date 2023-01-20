@@ -1,0 +1,71 @@
+body{
+    background-image: url("https://www.ashleycourtcare.co.uk/wp-content/uploads/2018/10/Senior-and-Elderly-Care-Living-Options.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    z-index: 4;
+    }
+.logo img{
+    width: 55px;
+    height: 45px;
+    border-width: 1%;
+    border-style: double;
+    border-radius: 50%;
+}
+.logo ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+    padding-left: 1%;
+}
+.logo li{
+    list-style: none;
+}
+.container{
+    display: block;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    top:0%;
+    bottom:0%;
+    left: 0%;
+    right:0%;
+    opacity:0.5;
+    margin: auto;
+}
+.container h1::before{
+    content: " ";
+    padding-left: 10%;
+    color: azure;
+    animation-name: text;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    transition-duration: 10s;
+}
+@keyframes text{
+    0%{
+        content:"GIVING  IS  THE  GREATEST  ACT  OF  GRACE.";
+    }
+    50%{
+        content:"CARING FOR SENIORS IS PERHAPS THE GREATEST RESPONSIBILITY WE HAVE.";  padding-left: 5%;
+    }
+    100%{
+        content:"BE THE REASON FOR THEIR SMILE";
+    }
+}
+.donate{
+    padding-top: 3%;
+    display:flex;
+    justify-content: center;
+}
+.donate button{
+    border-style: groove;
+    border-width: 70%;
+    border-radius: 5%;
+    border-color:black;
+    background-color:darkorange;
+    height: 50px;
+    width: 80px;
+}
